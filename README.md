@@ -7,7 +7,12 @@ This repository is a personal learning space for practicing core C++ concepts in
 ```text
 cpp-basics/
 |-- README.md
-`-- 1. Basics_and_foundations/
+|-- 1. Basics_and_foundations/
+|   |-- README.md
+|   |-- INTERVIEW_HELPER.md
+|   |-- main.cpp
+|   `-- program.exe
+`-- 2. Pointers/
     |-- README.md
     |-- INTERVIEW_HELPER.md
     |-- main.cpp
@@ -46,7 +51,7 @@ Each topic folder is expected to contain:
 - `README.md` explaining the concept and code in that folder
 - `INTERVIEW_HELPER.md` for quick revision, common questions, and talking points
 
-## Current Topic
+## Current Topics
 
 `1. Basics_and_foundations` covers a few foundational ideas:
 
@@ -54,6 +59,14 @@ Each topic folder is expected to contain:
 - Floating-point division
 - Mixed-type arithmetic
 - Character values and ASCII conversion
+
+`2. Pointers` introduces one of the most important C++ topics:
+
+- Variable addresses
+- Pointer declaration and initialization
+- Dereferencing pointers
+- Updating values through pointers
+- Pointer expression pitfalls such as `*ptr++`
 
 ## Notes
 
