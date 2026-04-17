@@ -12,7 +12,12 @@ cpp-basics/
 |   |-- INTERVIEW_HELPER.md
 |   |-- main.cpp
 |   `-- program.exe
-`-- 2. Pointers/
+|-- 2. Pointers/
+|   |-- README.md
+|   |-- INTERVIEW_HELPER.md
+|   |-- main.cpp
+|   `-- program.exe
+`-- 3. References/
     |-- README.md
     |-- INTERVIEW_HELPER.md
     |-- main.cpp
@@ -67,6 +72,14 @@ Each topic folder is expected to contain:
 - Dereferencing pointers
 - Updating values through pointers
 - Pointer expression pitfalls such as `*ptr++`
+
+`3. References` continues the memory model discussion with a cleaner aliasing tool:
+
+- Reference declaration and initialization
+- References as aliases, not copies
+- Updating values through a reference
+- Pass-by-reference in functions
+- Comparison thinking between references and pointers
 
 ## Notes
 
